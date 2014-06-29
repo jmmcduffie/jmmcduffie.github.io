@@ -1,0 +1,18 @@
+{% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} - {{ site.title }}{% else %}{{ site.title | append: ": " | append: site.subtitle }}{% endif %}</title>
+  <meta name="author" content="{{ site.author }}">
+
+  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  <link rel="canonical" href="{{ canonical }}">
+  <link href="{{ site.feedurl }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+</head>

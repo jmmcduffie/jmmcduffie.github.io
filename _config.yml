@@ -1,0 +1,26 @@
+# Site settings
+title: Jeremy McDuffie
+subtitle: Ruby on Rails + Front-end Dev + UX
+author: Jeremy McDuffie
+description: |
+  A developer blog covering topics for Ruby on Rails and front-end development with an emphasis on
+  good UX.
+username: jmmcduffie
+
+url: "http://jmmcduffie.com"
+baseurl:
+feedurl: http://feeds.feedblitz.com/jmmcduffie
+permalink: /blog/:year/:month/:title/
+
+titlecase: true
+date_format: "%-d %B %Y"
+category_dir: blog/categories
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - autolink
+    - no_intra_emphasis
+    - smart
+    - strikethrough
+    - superscript
+pygments: true

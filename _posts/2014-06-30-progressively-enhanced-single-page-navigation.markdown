@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Progressively Enhanced Single-Page Navigation"
+date: 2014-06-30
 categories:
   - Progressive Enhancement
   - Behavior
@@ -14,7 +15,7 @@ Progressive enhancement is all about layers. The idea is to break the implementa
 
 With something like in-page navigation, there is a very clear starting point. HTML already provides a way to link to a specific region of the page using a [fragment identifier](http://en.wikipedia.org/wiki/Fragment_identifier). For example, given that the page has a `section` element with an ID of "features," one can link to that `section` with the `HREF` "#features," i.e. `<a href="#features">Features</a>` will move the viewport to `<section id="features">`.
 
-So the first step is to build a navigation menu using the built-in semantics of a `<nav>` element and a `<ol>` of links:
+So the first step is to build a navigation menu using the built-in semantics of a `<nav>` element and an `<ol>` of links:
 
 {% gist 9338935 markup-1.html %}
 
@@ -30,7 +31,7 @@ The final step is to write a little JavaScript to define what the `scrollTo` beh
 
 {% gist 9338935 behaviors.js %}
 
-Now clicking one of the links will smoothly scroll the viewport to the right spot on the page. And should the JavaScript fail to run because of an error or a slow connection, the links will continue to point to the right spot on the page.
+Now clicking one of the links will smoothly scroll the viewport to the right spot on the page. And should the JavaScript fail to run because of an error or a slow connection, the links will continue to point to the right spot on the page. In fact, if JavaScript breaks during the execution of that event handler it will degrade gracefully because the call to `preventDefault` is at the very end.
 
 There are obviously many other enhancements that could be made, such as automatically updating as the user scrolls. But again, at this point any additional layers are just gravy. The meat of the interaction is a plain old HTML link with a fragment identifier. And in an nutshell that's what progressive enhancement is all about: layers of added functionality; JavaScript on top of CSS on top of HTML on top of HTTP.
 

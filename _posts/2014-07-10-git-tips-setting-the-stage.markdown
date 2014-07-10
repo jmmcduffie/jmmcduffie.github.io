@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Tips: Setting the Stage"
+date: 2014-07-10
 categories: General
 ---
 

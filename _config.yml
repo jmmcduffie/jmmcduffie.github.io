@@ -23,4 +23,4 @@ redcarpet:
     - smart
     - strikethrough
     - superscript
-pygments: true
+highlighter: pygments

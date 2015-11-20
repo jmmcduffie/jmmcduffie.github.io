@@ -10,7 +10,7 @@ username: jmmcduffie
 url: "http://jmmcduffie.com"
 baseurl:
 feedurl: http://feeds.feedblitz.com/jmmcduffie
-permalink: /blog/:year/:month/:title/
+permalink: /blog/:title/
 
 titlecase: true
 date_format: "%-d %B %Y"

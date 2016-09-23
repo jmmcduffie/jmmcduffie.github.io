@@ -15,12 +15,3 @@ permalink: /blog/:title/
 titlecase: true
 date_format: "%-d %B %Y"
 category_dir: blog/categories
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - autolink
-    - no_intra_emphasis
-    - smart
-    - strikethrough
-    - superscript
-highlighter: pygments

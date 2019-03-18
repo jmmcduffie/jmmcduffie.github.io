@@ -1,9 +1,7 @@
 # Site settings
-title: Jeremy McDuffie
+title: jmmcduffie.com
 author: Jeremy McDuffie
-description: |
-  A developer blog covering topics for Ruby on Rails and front-end development with an emphasis on
-  good UX.
+description: The personal domain of Jeremy McDuffie.
 username: jmmcduffie
 
 url: "http://jmmcduffie.com"

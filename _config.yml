@@ -4,10 +4,13 @@ author: Jeremy McDuffie
 description: The personal domain of Jeremy McDuffie.
 username: jmmcduffie
 
-url: "http://jmmcduffie.com"
+url: "https://jmmcduffie.com"
 feedurl: "/atom.xml"
 permalink: /blog/:title/
 
 titlecase: true
 date_format: "%-d %B %Y"
 category_dir: blog/categories
+
+plugins:
+  - jekyll-avatar

@@ -162,6 +162,15 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.home .media {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.home .avatar {
+  border-radius: 50%;
+}
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -404,3 +413,9 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* ====== media ====== */
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; margin-left: 10px;}

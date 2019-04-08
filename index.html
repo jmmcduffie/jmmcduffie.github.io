@@ -15,4 +15,15 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ site.feedurl }}">via RSS</a></p>
+
+  <footer class="h-card media">
+    <div class="u-photo img">
+      {% avatar {{ site.username }} %}
+    </div>
+
+    <div class="bd">
+      <p class="p-name">{{ site.author }}</p>
+      <a href="{{ site.baseurl }}" class="u-url">{{ site.title }}</a>
+    </div>
+  </footer>
 </main>

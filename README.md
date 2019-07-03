@@ -1,1 +1,0 @@
-# jmmcduffie.github.io

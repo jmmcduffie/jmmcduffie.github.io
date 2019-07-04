@@ -1,32 +1,28 @@
 <footer class="site-footer h-card" role="contentinfo">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1 p-author media">
-          <div class="u-photo img">
-            {% avatar {{ site.github_username }} %}
-          </div>
-      
-          <div class="bd">
-            <p class="p-name">{{ site.author }}</p>
-            <a href="{{ site.baseurl }}" class="u-url">{{ site.title }}</a>
-            {%- if site.email -%}
-            <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-            {%- endif -%}
-          </div>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1 p-author media">
+        <div class="u-photo img">
+          {% avatar {{ site.github_username }} %}
         </div>
-  
-        <div class="footer-col footer-col-2">
-          {%- include social.html -%}
-        </div>
-  
-        <div class="footer-col footer-col-3">
-          <p>{{- site.description | escape -}}</p>
-          <p><small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</small></p>
+    
+        <div class="bd">
+          <p class="p-name">{{ site.author }}</p>
+          <a href="{{ site.baseurl }}" class="u-url">{{ site.title }}</a>
+          {%- if site.email -%}
+          <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+          {%- endif -%}
         </div>
       </div>
-  
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+        <p><small>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</small></p>
+      </div>
     </div>
-  
-  </footer>
+  </div>
+</footer>

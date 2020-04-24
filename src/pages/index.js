@@ -1,3 +1,9 @@
-import React from "react"
+import React from 'react'
+import SiteFooter from '../components/site-footer'
 
-export default () => <div>Hello world!</div>
+export default () => (
+  <>
+    <div>Hello world!</div>
+    <SiteFooter />
+  </>
+)

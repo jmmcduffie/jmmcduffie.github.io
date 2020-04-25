@@ -1,0 +1,37 @@
+---
+title: Nodevember 2015
+date: 2015-11-20
+---
+
+Last weekend I had the privilege of being able to attend Nodevember 2015 with several of my fellow team members. It was a great experience overall and I'm grateful that I went. Since I've been wanting to be better with writing on my blog, I decided to take this opportunity to type up my thoughts and share them.
+
+---
+
+One big thing that stands out is how well organized Nodevember was. Registration was simple and the signage was perfect. I never felt lost (except when trying to remember where the car was parked—but that’s my fault).
+
+The conference swag, both from the organizers and the sponsors, was awesome. I was very pleased with the stickers, tee shirts, and socks that I picked up. And there was a ton of other cool stuff that I didn't get.
+
+The food was unbelievable. Instead of the usual conference fare we were treated to high-quality meals that represented some of Nashville’s food culture. (Hot chicken? Heck yes!)
+
+There were also a lot of great things about the format. The low ticket price and weekend schedule make it very accessible. The 30-minute sessions felt just right to me—long enough to get at least a few nuggets but short enough to keep everything moving at a good clip throughout the day. The breaks in between were perfect for getting to the next session and even networking a little in between, although the lunch break felt just a tad too long to me.
+
+---
+
+It is, of course, the content that really makes or breaks a conference. And with two days and multiple tracks there was plenty of it.
+
+To be honest, the opening keynote by Yehuda Katz was a huge disappointment. What started out as an interesting discussion of the merit of frameworks turned into an extended sales pitch for Ember. The “live-coding” video that made up most of the talk was almost impossible to read from where I was sitting. I really wish he had spent more time talking about frameworks as empowerment and skipped the Ember demo. It felt less like a keynote and more like what should have just been an Ember session at the conference.
+
+There were a couple of other "sour notes" as well. Some of the speakers badly ended what was otherwise a good session by continuing to take questions after their allotted times instead of dismissing the group and sticking around to answer questions one-on-one. Another speaker changed his topic but didn’t tell anyone until his time began, which was too late to make it to another talk.
+
+Fortunately, those (mostly) minor annoyances were more than made up for by the rest of the content. Here are a few of my highlights:
+
+- [Rey Bango](http://twitter.com/reybango)’s openness and vulnerability about struggling to learn Node.js were very encouraging and engaging.
+- [Robert DeLuca](http://twitter.com/robdel12)’s concept of “accessibility debt” was brilliant.
+- [Soledad Penadés](http://twitter.com/supersole)’s second-day keynote about “Healthy Egotism” was a much-needed reminder for everyone about the importance of taking care of yourself.
+- [Kyle Simpson](http://twitter.com/getify)’s talk about async programming and specifically CSP was mind-bending. I was excited to hear him speak in person.
+- [Aimee Knight](http://twitter.com/Aimee_Knight)’s talk about lessons learned since graduating from NSS was awesome and plenty useful for all skill levels.
+- [Laurie Voss](http://twitter.com/seldo) from npm gave an excellent overview of SOA that was useful whether you’re working with Node or not.
+
+---
+
+This has been an interesting year for conferences in Middle Tennessee. With the demise of both DevLink and Coderfaire (at least for now) and the start of [Music City Code](http://www.musiccitycode.com), the landscape has really shifted. Fortunately, Music City Code came out of the gate strong—in fact, it was so polished that it didn’t really feel like a first-year conference to me. And this year’s Nodevember was truly impressive, both compared to what they did last year and to what anyone would have reasonably expected for a second year. I think we’re very fortunate here in Nashville and I’m excited to see how our community continues to grow.

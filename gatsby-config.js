@@ -5,5 +5,18 @@
  */
 
 module.exports = {
-  plugins: ['gatsby-plugin-postcss'],
+  siteMetadata: {
+    title: 'jmmcduffie.com'
+  },
+  plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`,
+      },
+    },
+    'gatsby-transformer-remark',
+    'gatsby-plugin-postcss'
+  ],
 }

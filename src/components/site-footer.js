@@ -9,11 +9,11 @@ const SocialLink = ({ href, icon, children }) => (
 )
 
 export default () => (
-  <footer role="contentinfo" className="border-t py-8 px-4 text-gray-700">
-    <div className="max-w-screen-xl mx-auto space-y-4 md:space-y-0 md:flex">
-      <p className="md:w-2/5 text-lg">jmmcduffie.com</p>
+  <footer role="contentinfo" className="border-t py-6 px-4 text-gray-700">
+    <div className="max-w-screen-lg mx-auto space-y-4 md:space-y-0 md:flex justify-between">
+      <p className="text-lg">jmmcduffie.com</p>
 
-      <ul className="flex flex-wrap -ml-4 md:block md:m-0 md:w-1/5 ">
+      <ul className="flex flex-wrap -ml-4 md:block md:m-0">
         <li className="ml-4 md:m-0">
           <SocialLink href="https://github.com/jmmcduffie" icon="github">jmmcduffie</SocialLink>
         </li>
@@ -25,7 +25,7 @@ export default () => (
         </li>
       </ul>
 
-      <p className="md:w-2/5 md:ml-auto">
+      <p>
         <small className="block text-sm">Copyright &copy; 2013–{new Date().getFullYear()} Jeremy McDuffie.</small>
         <small className="block text-sm">All rights reserved.</small>
       </p>

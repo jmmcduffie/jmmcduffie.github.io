@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from '../components/layout'
 
 export default ({ data }) => (
@@ -10,7 +10,11 @@ export default ({ data }) => (
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <li key={node.id}>
           <span className="text-gray-600 text-sm">{node.frontmatter.date}</span>
-          <h3 className="text-2xl leading-tight">{node.frontmatter.title}</h3>
+          <h3 className="text-2xl leading-tight">
+            <Link to={node.fields.slug} className="text-blue-500 hover:underline">
+              {node.frontmatter.title}
+            </Link>
+          </h3>
         </li>
       ))}
     </ol>
@@ -26,6 +30,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+          }
+          fields {
+            slug
           }
         }
       }

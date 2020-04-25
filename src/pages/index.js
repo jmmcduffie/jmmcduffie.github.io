@@ -1,9 +1,8 @@
 import React from 'react'
-import SiteFooter from '../components/site-footer'
+import Layout from '../components/layout'
 
 export default () => (
-  <>
-    <div>Hello world!</div>
-    <SiteFooter />
-  </>
+  <Layout>
+    Hello world!
+  </Layout>
 )

@@ -7,14 +7,14 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <article>
-        <h1 class="text-5xl leading-tight">{post.frontmatter.title}</h1>
+      <article className="max-w-2xl">
+        <h1 className="text-4xl md:text-5xl leading-tight">{post.frontmatter.title}</h1>
 
-        <footer class="text-gray-600 mb-4">
-          <time pubdate>{post.frontmatter.date}</time>
+        <footer className="text-gray-600 mb-10">
+          <time pubdate="pubdate">{post.frontmatter.date}</time>
         </footer>
 
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
     </Layout>
   )

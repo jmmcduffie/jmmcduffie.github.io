@@ -7,7 +7,7 @@ export default ({ children }) => (
     <Masthead/>
 
     <main role="main" className="bg-white py-10 px-4">
-      <div class="max-w-screen-lg mx-auto">
+      <div className="max-w-screen-lg mx-auto">
         {children}
       </div>
     </main>

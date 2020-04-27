@@ -12,11 +12,31 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'src',
-        path: `${__dirname}/src/`,
+        name: 'posts',
+        path: `${__dirname}/content/posts/`,
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-smartypants',
+          {
+            resolve: 'gatsby-remark-embed-gist',
+            options: {
+              username: 'jmmcduffie',
+              includeDefaultCss: true
+            }
+          },
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              inlineCodeMarker: '›'
+            }
+          }
+        ]
+      }
+    },
     'gatsby-plugin-postcss'
   ],
 }

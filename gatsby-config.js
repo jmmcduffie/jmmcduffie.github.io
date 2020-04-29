@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'jmmcduffie.com',
     author: 'Jeremy McDuffie',
-    description: 'The #indieweb home of Jeremy McDuffie'
+    description: 'The #indieweb home of Jeremy McDuffie',
+    siteUrl: 'https://www.jmmcduffie.com'
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -47,6 +48,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-feed'
   ],
 }

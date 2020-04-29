@@ -25,6 +25,9 @@ export default () => (
         <li className="ml-4 md:m-0">
           <SocialLink href="https://stackoverflow.com/users/943505/jeremy-mcduffie" icon="stackoverflow">jeremy-mcduffie</SocialLink>
         </li>
+        <li className="ml-4 md:m-0">
+          <SocialLink href="/rss.xml" icon="rss">jmmcduffie.com</SocialLink>
+        </li>
       </ul>
 
       <p>

@@ -8,7 +8,7 @@ export default ({ data }) => (
     <SEO title={data.site.siteMetadata.description} />
     <h2 className="text-lg font-bold mb-4">Blog</h2>
 
-    <ol className="space-y-6">
+    <ol className="space-y-6 mb-8">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <li key={node.id}>
           <span className="text-gray-600 text-sm">{node.frontmatter.date}</span>
@@ -20,6 +20,10 @@ export default ({ data }) => (
         </li>
       ))}
     </ol>
+
+    <p>
+      subscribe <Link to="/rss.xml" className="text-blue-500 hover:underline">via RSS</Link>
+    </p>
   </Layout>
 )
 

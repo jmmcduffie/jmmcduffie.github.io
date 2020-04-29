@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+  height: auto;
+}
+
+.post pre { overflow-x: auto; }
+.post pre code { padding: 0; border: none; }
+
+.home {
+  padding-bottom: 30px;
+
+  .avatar {
+    border-radius: 50%;
+  }
+}
+
+.blog {
+  border-top: 1px solid #e8e8e8;
+  padding-top: 30px;
+}
+
+/* ====== media ====== */
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 30px;}
+.media .img img{display:block;}

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link, graphql } from "gatsby"
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 export default ({ data }) => (
   <Layout>
+    <SEO title={data.site.siteMetadata.description} />
     <h2 className="text-lg font-bold mb-4">Blog</h2>
 
     <ol className="space-y-6">
@@ -23,6 +25,13 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        description
+        author
+      }
+    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {

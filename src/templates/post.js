@@ -1,20 +1,22 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
-export default ({ data }) => {
+export default ({ data, pageContext }) => {
   const post = data.markdownRemark
 
   return (
     <Layout>
-      <article className="max-w-2xl">
-        <h1 className="text-4xl md:text-5xl leading-tight">{post.frontmatter.title}</h1>
+      <article className="max-w-2xl h-entry">
+        <h1 className="text-4xl md:text-5xl leading-tight p-name">
+          <Link to={pageContext.slug} className="u-url">{post.frontmatter.title}</Link>
+        </h1>
 
         <footer className="text-gray-600 mb-10">
-          <time pubdate="pubdate">{post.frontmatter.date}</time>
+          <time pubdate="pubdate" className="dt-published">{post.frontmatter.date}</time>
         </footer>
 
-        <div className="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="markdown e-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
     </Layout>
   )

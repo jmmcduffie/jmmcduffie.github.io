@@ -15,7 +15,8 @@ export default ({ data, pageContext }) => {
         </h1>
 
         <footer className="text-gray-600 mb-10">
-          <time pubdate="pubdate" className="dt-published">{post.frontmatter.date}</time>
+          <time pubdate="pubdate" datetime={post.frontmatter.pubdate} className="dt-published">{post.frontmatter.date}</time>
+          <p className="hidden p-author">Jeremy McDuffie</p>
         </footer>
 
         <div className="markdown e-content" dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -31,6 +32,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        pubdate: date
       }
     }
   }

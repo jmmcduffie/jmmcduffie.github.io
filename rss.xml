@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jmmcduffie.com]]></title><description><![CDATA[The #indieweb home of Jeremy McDuffie]]></description><link>https://www.jmmcduffie.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 May 2020 18:26:00 GMT</lastBuildDate><item><title><![CDATA[Nodevember 2015]]></title><description><![CDATA[Last weekend I had the privilege of being able to attend Nodevember 2015 with several of my fellow team members. It was a great experience…]]></description><link>https://www.jmmcduffie.com/blog/nodevember-2015/</link><guid isPermaLink="false">https://www.jmmcduffie.com/blog/nodevember-2015/</guid><pubDate>Fri, 20 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last weekend I had the privilege of being able to attend Nodevember 2015 with several of my fellow team members. It was a great experience overall and I’m grateful that I went. Since I’ve been wanting to be better with writing on my blog, I decided to take this opportunity to type up my thoughts and share them.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;One big thing that stands out is how well organized Nodevember was. Registration was simple and the signage was perfect. I never felt lost (except when trying to remember where the car was parked—but that’s my fault).&lt;/p&gt;
+&lt;p&gt;The conference swag, both from the organizers and the sponsors, was awesome. I was very pleased with the stickers, tee shirts, and socks that I picked up. And there was a ton of other cool stuff that I didn’t get.&lt;/p&gt;
+&lt;p&gt;The food was unbelievable. Instead of the usual conference fare we were treated to high-quality meals that represented some of Nashville’s food culture. (Hot chicken? Heck yes!)&lt;/p&gt;
+&lt;p&gt;There were also a lot of great things about the format. The low ticket price and weekend schedule make it very accessible. The 30-minute sessions felt just right to me—long enough to get at least a few nuggets but short enough to keep everything moving at a good clip throughout the day. The breaks in between were perfect for getting to the next session and even networking a little in between, although the lunch break felt just a tad too long to me.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;It is, of course, the content that really makes or breaks a conference. And with two days and multiple tracks there was plenty of it.&lt;/p&gt;
+&lt;p&gt;To be honest, the opening keynote by Yehuda Katz was a huge disappointment. What started out as an interesting discussion of the merit of frameworks turned into an extended sales pitch for Ember. The “live-coding” video that made up most of the talk was almost impossible to read from where I was sitting. I really wish he had spent more time talking about frameworks as empowerment and skipped the Ember demo. It felt less like a keynote and more like what should have just been an Ember session at the conference.&lt;/p&gt;
+&lt;p&gt;There were a couple of other “sour notes” as well. Some of the speakers badly ended what was otherwise a good session by continuing to take questions after their allotted times instead of dismissing the group and sticking around to answer questions one-on-one. Another speaker changed his topic but didn’t tell anyone until his time began, which was too late to make it to another talk.&lt;/p&gt;
+&lt;p&gt;Fortunately, those (mostly) minor annoyances were more than made up for by the rest of the content. Here are a few of my highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/reybango&quot;&gt;Rey Bango&lt;/a&gt;’s openness and vulnerability about struggling to learn Node.js were very encouraging and engaging.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/robdel12&quot;&gt;Robert DeLuca&lt;/a&gt;’s concept of “accessibility debt” was brilliant.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/supersole&quot;&gt;Soledad Penadés&lt;/a&gt;’s second-day keynote about “Healthy Egotism” was a much-needed reminder for everyone about the importance of taking care of yourself.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/getify&quot;&gt;Kyle Simpson&lt;/a&gt;’s talk about async programming and specifically CSP was mind-bending. I was excited to hear him speak in person.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/Aimee_Knight&quot;&gt;Aimee Knight&lt;/a&gt;’s talk about lessons learned since graduating from NSS was awesome and plenty useful for all skill levels.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/seldo&quot;&gt;Laurie Voss&lt;/a&gt; from npm gave an excellent overview of SOA that was useful whether you’re working with Node or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;This has been an interesting year for conferences in Middle Tennessee. With the demise of both DevLink and Coderfaire (at least for now) and the start of &lt;a href=&quot;http://www.musiccitycode.com&quot;&gt;Music City Code&lt;/a&gt;, the landscape has really shifted. Fortunately, Music City Code came out of the gate strong—in fact, it was so polished that it didn’t really feel like a first-year conference to me. And this year’s Nodevember was truly impressive, both compared to what they did last year and to what anyone would have reasonably expected for a second year. I think we’re very fortunate here in Nashville and I’m excited to see how our community continues to grow.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ruby on Rails on OS X Yosemite]]></title><description><![CDATA[Recently I decided to replace my nearly seven-year-old MacBook Pro with a brand-new one. As I sometimes do in situations like this, I…]]></description><link>https://www.jmmcduffie.com/blog/ruby-on-rails-on-os-x-yosemite/</link><guid isPermaLink="false">https://www.jmmcduffie.com/blog/ruby-on-rails-on-os-x-yosemite/</guid><pubDate>Wed, 28 Jan 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently I decided to replace my nearly seven-year-old MacBook Pro with a brand-new one. As I sometimes do in situations like this, I decided to set everything up from scratch rather than restoring from another device or a backup. Since I was running Mavericks on my old laptop, this meant getting a development environment going on a new version of OS X. It was a straight-forward process but I decided to document it for my own reference and share it in case someone else can benefit from it.&lt;/p&gt;
+&lt;h2&gt;General Setup&lt;/h2&gt;
+&lt;p&gt;The first thing you need for development on a Mac is the Xcode command-line tools. Fortunately, installing them is quite easy these days:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;xcode-select --install &lt;span class=&quot;token comment&quot;&gt;# then click “Install”&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Using a package manager makes everything a little easier (in my opinion), and I always reach for &lt;a href=&quot;http://brew.sh&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;ruby -e &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+brew doctor &lt;span class=&quot;token comment&quot;&gt;# and then follow the instructions (if any)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I ran into permission errors the first time I tried to install any packages so I had to &lt;code class=&quot;language-text&quot;&gt;chown&lt;/code&gt; the &lt;code class=&quot;language-text&quot;&gt;/usr/local&lt;/code&gt; directory to clear those up.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# You might need to do this too&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;whoami&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt; /usr/local&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once Homebrew is in place you can install &lt;a href=&quot;http://www.git-scm.com&quot;&gt;Git&lt;/a&gt; and &lt;a href=&quot;http://nodejs.org&quot;&gt;Node.js&lt;/a&gt;. Even though I develop in Rails, I constantly find myself in need of Node for front-end work. Also, if you plan on using GitHub’s Atom editor you’ll want Node to enable its command line tools. (For whatever reason, installing &lt;code class=&quot;language-text&quot;&gt;node&lt;/code&gt; didn’t expose &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; to the &lt;code class=&quot;language-text&quot;&gt;$PATH&lt;/code&gt;, but installing it as &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; did.)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;brew &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# not ‘node’&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Go ahead and do this if you know you’ll need Grunt&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g grunt-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You might elect to install Postgres with Homebrew as well, which I have done in the past. This time, though, I decided to give &lt;a href=&quot;http://postgresapp.com&quot;&gt;Postgres.app&lt;/a&gt; a try. After downloading and dragging to the Applications folder, I updated my &lt;code class=&quot;language-text&quot;&gt;$PATH&lt;/code&gt; to &lt;a href=&quot;http://postgresapp.com/documentation/cli-tools.html&quot;&gt;enable command-line usage&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# in ~/.bash_profile&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt;:/Applications/Postgres.app/Contents/Versions/9.4/bin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Ruby Setup&lt;/h2&gt;
+&lt;p&gt;Ever since I started learning Ruby and Rails I’ve used &lt;a href=&quot;http://rvm.io&quot;&gt;RVM&lt;/a&gt;. It’s also what my box at work is running. But this time I decided to give &lt;a href=&quot;https://github.com/sstephenson/rbenv&quot;&gt;rbenv&lt;/a&gt; a shot instead. I know other devs who use it, and it’s actually what the Rails team recommends, so I figured it wouldn’t be a bad idea to try it.&lt;/p&gt;
+&lt;p&gt;Setting up rbenv is quite simple. I recommend using Homebrew to install it, and unless you plan to manually compile your Ruby versions from source I’d recommend the &lt;code class=&quot;language-text&quot;&gt;ruby-build&lt;/code&gt; plugin:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;brew &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; rbenv ruby-build
+
+&lt;span class=&quot;token comment&quot;&gt;# in ~/.bash_profile&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;RBENV_ROOT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/local/var/rbenv
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; rbenv &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /dev/null&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;rbenv init -&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I elected to install a few additional plugins as well:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$RBENV_ROOT&lt;/span&gt;/plugins
+
+&lt;span class=&quot;token comment&quot;&gt;# gem-rehash&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/sstephenson/rbenv-gem-rehash.git &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$RBENV_ROOT&lt;/span&gt;/plugins/rbenv-gem-rehash
+
+&lt;span class=&quot;token comment&quot;&gt;# default-gems&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/sstephenson/rbenv-default-gems.git &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$RBENV_ROOT&lt;/span&gt;/plugins/rbenv-default-gems
+
+&lt;span class=&quot;token comment&quot;&gt;# binstubs&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/ianheggie/rbenv-binstubs.git &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$RBENV_ROOT&lt;/span&gt;/plugins/rbenv-binstubs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Regardless of whether you do that or not, you should be all set up to install and run a version of Ruby. I downloaded 2.1.1 for this blog, created &lt;code class=&quot;language-text&quot;&gt;.ruby-version&lt;/code&gt;, and generated a binstub for Jekyll.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;rbenv &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.1&lt;/span&gt;.1
+rbenv &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.1&lt;/span&gt;.1 &lt;span class=&quot;token comment&quot;&gt;# creates .ruby-version&lt;/span&gt;
+
+bundle binstubs jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s it! It seems like getting up and running with Rails gets easier all the time. And that’s certainly a good thing. Happy coding.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Shameless Plug:&lt;/strong&gt; Are you a Rails developer? Are you interested in work that matters? &lt;a href=&quot;http://hire.jobvite.com/m?3MOO0hwa&quot;&gt;We’re hiring!&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git Tips: Setting the Stage]]></title><description><![CDATA[Sometimes when I’m working on a project I’ll realize that I’ve bitten off too much code at once. My preference is to keep each commit as…]]></description><link>https://www.jmmcduffie.com/blog/git-tips-setting-the-stage/</link><guid isPermaLink="false">https://www.jmmcduffie.com/blog/git-tips-setting-the-stage/</guid><pubDate>Thu, 10 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sometimes when I’m working on a project I’ll realize that I’ve bitten off too much code at once. My preference is to keep each commit as small as possible while still providing some kind of value, i.e. &lt;a href=&quot;http://agilemanifesto.org/principles.html&quot;&gt;deliver working software frequently&lt;/a&gt;. But occasionally I will have already started into another feature before getting the first one committed. Or worse, sometimes I’ll be in the middle of one task and notice a bug or opportunity for enhancement that I just go ahead and address. In either case, now my working copy is a mixture of what should really be two separate commits.&lt;/p&gt;
+&lt;p&gt;Savvy Git users already know that you can stage everything or just specific files using &lt;code class=&quot;language-text&quot;&gt;git add &amp;lt;pathspec&amp;gt;&lt;/code&gt;. But what if you’ve made multiple changes within the same file and you don’t want to stage all of them? Fortunately, there is a way to stage only the changes that you want to commit.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://git-scm.com/docs/git-add&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git-add&lt;/code&gt;&lt;/a&gt; command accepts a &lt;code class=&quot;language-text&quot;&gt;--patch&lt;/code&gt; (or &lt;code class=&quot;language-text&quot;&gt;-p&lt;/code&gt;) flag that allows you to review each diff and decide whether to stage it or not. Stepping through the file(s), at each point where there is a diff you can choose to either skip that change, stage it, break it down into a smaller hunk, or a number of other actions.&lt;/p&gt;
+&lt;p&gt;Changes that are in separate parts of a file work especially well with patch mode—Git has a harder time separating diffs that are very close together. In those cases you have to make a call about whether the changes really need to be separate, and require manual editing, or if it’s logical for them to be released together.&lt;/p&gt;
+&lt;p&gt;With features like patch (just one part of &lt;code class=&quot;language-text&quot;&gt;git-add&lt;/code&gt;’s &lt;a href=&quot;http://git-scm.com/docs/git-add#_interactive_mode&quot;&gt;interactive mode&lt;/a&gt;), Git makes it possible to set up each commit exactly the way that you want.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Progressively Enhanced Single-Page Navigation]]></title><description><![CDATA[A common pattern on the web today is that of navigation within a single page. One sees this technique used frequently on marketing landing…]]></description><link>https://www.jmmcduffie.com/blog/progressively-enhanced-single-page-navigation/</link><guid isPermaLink="false">https://www.jmmcduffie.com/blog/progressively-enhanced-single-page-navigation/</guid><pubDate>Mon, 30 Jun 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A common pattern on the web today is that of navigation within a single page. One sees this technique used frequently on marketing landing pages, where a larger amount of content will be contained within one page. Each link in the nav links to a spot on the page, and usually that spot scrolls smoothly into view when the link is clicked.&lt;/p&gt;
+&lt;p&gt;Recently a new developer asked me how to make a nav like that. While my suggested implementation is certainly not complex, my approach might be instructional as an example of progressive enhancement. People don’t talk much about progressive enhancement anymore but it is still my preferred and recommended methodology.&lt;/p&gt;
+&lt;p&gt;Progressive enhancement is all about layers. The idea is to break the implementation into its simplest, most bulletproof form and build that first. I call this the “baseline experience.” From there, one layers additional style or behavior on top of that foundation to achieve the desired effect. If any layer above the baseline experience fails, the implementation will still stand.&lt;/p&gt;
+&lt;p&gt;With something like in-page navigation, there is a very clear starting point. HTML already provides a way to link to a specific region of the page using a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fragment_identifier&quot;&gt;fragment identifier&lt;/a&gt;. For example, given that the page has a &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;section&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt; element with an ID of “features,” one can link to that &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;section&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt; with the &lt;code class=&quot;language-text&quot;&gt;HREF&lt;/code&gt; “#features,” i.e. &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#features&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Features&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt; will move the viewport to &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;section&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;features&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;So the first step is to build a navigation menu using the built-in semantics of a &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nav&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt; element and an &lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt; of links:&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist9338935&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-markup-1-html&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-html &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot; data-paste-markdown-skip&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;nav&lt;/span&gt; &lt;span class=pl-c1&gt;role&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;navigation&lt;/span&gt;&amp;quot; &lt;span class=pl-c1&gt;class&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;Navbar&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;h2&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Primary Navigation&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;h2&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;ol&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#features&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Features&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#how-it-works&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;How It Works&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#pricing&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Pricing&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;/signup&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Sign Up&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;ol&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;nav&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;...&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;section&lt;/span&gt; &lt;span class=pl-c1&gt;id&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;features&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  ...&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-1-html-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-1-html-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;section&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935/raw/7f1455dd00c600d494fdb9caa9265753460b72ff/markup-1.html&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935#file-markup-1-html&quot;&gt;markup-1.html&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;That implementation alone will meet the requirements of in-page navigation. Clicking one of the links using a fragment identifier will move the viewport to that section. But although technically correct, this approach leaves something to be desired. The links need an additional &lt;em&gt;behavior&lt;/em&gt; added.&lt;/p&gt;
+&lt;p&gt;Web development has come a long way since the days of inline JavaScript and CSS. My current thinking with binding JavaScript behaviors to HTML is to use data attributes to extend the semantics of the element. By adding &lt;code class=&quot;language-text&quot;&gt;data-behavior=&amp;quot;foo&amp;quot;&lt;/code&gt; to an element, I can communicate that it has additional metadata and add a way to bind JavaScript functionality to it.&lt;/p&gt;
+&lt;p&gt;Step two is to use data attributes to declare that some of these links have an additional behavior:&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist9338935&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-markup-2-html&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-html &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot; data-paste-markdown-skip&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;nav&lt;/span&gt; &lt;span class=pl-c1&gt;role&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;navigation&lt;/span&gt;&amp;quot; &lt;span class=pl-c1&gt;class&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;Navbar&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;h2&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Primary Navigation&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;h2&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;ol&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#features&lt;/span&gt;&amp;quot; &lt;span class=pl-c1&gt;data-behavior&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;scrollTo&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Features&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#how-it-works&lt;/span&gt;&amp;quot; &lt;span class=pl-c1&gt;data-behavior&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;scrollTo&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;How It Works&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;#pricing&lt;/span&gt;&amp;quot; &lt;span class=pl-c1&gt;data-behavior&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;scrollTo&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Pricing&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt; &lt;span class=pl-c1&gt;href&lt;/span&gt;=&amp;quot;&lt;span class=pl-s&gt;/signup&lt;/span&gt;&amp;quot;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;Sign Up&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;a&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;li&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;ol&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-markup-2-html-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-markup-2-html-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;&amp;lt;/&lt;/span&gt;&lt;span class=pl-ent&gt;nav&lt;/span&gt;&lt;span class=pl-kos&gt;&amp;gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935/raw/7f1455dd00c600d494fdb9caa9265753460b72ff/markup-2.html&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935#file-markup-2-html&quot;&gt;markup-2.html&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;The final step is to write a little JavaScript to define what the &lt;code class=&quot;language-text&quot;&gt;scrollTo&lt;/code&gt; behavior actually does. My implementation uses jQuery, but obviously that is not a requirement. I add an event listener to the body to detect clicks on links with the &lt;code class=&quot;language-text&quot;&gt;data-behavior=&amp;quot;scrollTo&amp;quot;&lt;/code&gt; attribute, verify that a fragment identifier is present, scroll to the identified element, and prevent the fragment from being added to the URL:&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist9338935&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-behaviors-js&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-javascript &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot; data-paste-markdown-skip&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-c&gt;// Add an event listener to the document&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-en&gt;$&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-smi&gt;document&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-en&gt;on&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt; &lt;span class=pl-s&gt;&amp;quot;click&amp;quot;&lt;/span&gt;&lt;span class=pl-kos&gt;,&lt;/span&gt; &lt;span class=pl-s&gt;&amp;quot;a[data-behavior=&amp;#39;scrollTo&amp;#39;]&amp;quot;&lt;/span&gt;&lt;span class=pl-kos&gt;,&lt;/span&gt; &lt;span class=pl-k&gt;function&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-s1&gt;event&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt; &lt;span class=pl-kos&gt;{&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-c&gt;// Check for a fragment on the clicked link&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-c&gt;// `this.hash` = the fragment identifier&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-k&gt;if&lt;/span&gt; &lt;span class=pl-kos&gt;(&lt;/span&gt; &lt;span class=pl-smi&gt;this&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-c1&gt;hash&lt;/span&gt; !== &lt;span class=pl-s&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=pl-kos&gt;)&lt;/span&gt; &lt;span class=pl-kos&gt;{&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-c&gt;// Animate the viewport&amp;#39;s scroll position&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-en&gt;$&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-s&gt;&amp;quot;html, body&amp;quot;&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-en&gt;animate&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-kos&gt;{&lt;/span&gt; &lt;span class=pl-c1&gt;scrollTop&lt;/span&gt;: &lt;span class=pl-en&gt;$&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt; &lt;span class=pl-smi&gt;this&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-c1&gt;hash&lt;/span&gt; &lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-en&gt;offset&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-c1&gt;top&lt;/span&gt; &lt;span class=pl-kos&gt;}&lt;/span&gt;&lt;span class=pl-kos&gt;,&lt;/span&gt; &lt;span class=pl-c1&gt;500&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-c&gt;// Prevent the fragment identifier from being added to the URL&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-c&gt;// This at the end in case the script fails before this point&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=pl-s1&gt;event&lt;/span&gt;&lt;span class=pl-kos&gt;.&lt;/span&gt;&lt;span class=pl-en&gt;preventDefault&lt;/span&gt;&lt;span class=pl-kos&gt;(&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  &lt;span class=pl-kos&gt;}&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-behaviors-js-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-behaviors-js-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=pl-kos&gt;}&lt;/span&gt;&lt;span class=pl-kos&gt;)&lt;/span&gt;&lt;span class=pl-kos&gt;;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935/raw/7f1455dd00c600d494fdb9caa9265753460b72ff/behaviors.js&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/jmmcduffie/9338935#file-behaviors-js&quot;&gt;behaviors.js&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Now clicking one of the links will smoothly scroll the viewport to the right spot on the page. And should the JavaScript fail to run because of an error or a slow connection, the links will continue to point to the right spot on the page. In fact, if JavaScript breaks during the execution of that event handler it will degrade gracefully because the call to &lt;code class=&quot;language-text&quot;&gt;preventDefault&lt;/code&gt; is at the very end.&lt;/p&gt;
+&lt;p&gt;There are obviously many other enhancements that could be made, such as automatically updating as the user scrolls. But again, at this point any additional layers are just gravy. The meat of the interaction is a plain old HTML link with a fragment identifier. And in an nutshell that’s what progressive enhancement is all about: layers of added functionality; JavaScript on top of CSS on top of HTML on top of HTTP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jmm&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Forward Thinking for Backwards Compatibility]]></title><description><![CDATA[My first gaming console was an SNES given to me as a Christmas gift by my aunt and uncle. Later, they gave me their own Sega Genesis when I…]]></description><link>https://www.jmmcduffie.com/blog/forward-thinking-for-backwards-compatibility/</link><guid isPermaLink="false">https://www.jmmcduffie.com/blog/forward-thinking-for-backwards-compatibility/</guid><pubDate>Mon, 24 Jun 2013 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My first gaming console was an SNES given to me as a Christmas gift by my aunt and uncle. Later, they gave me their own Sega Genesis when I got hooked on a game after playing it at their house. And several Christmases after that, they got me a Playstation. The GameCube was the first console that I saved up for and bought myself.&lt;/p&gt;
+&lt;p&gt;I remember each of those moments vividly. I look back on the hours I spent playing games like Super Mario World, Shining Force (I and II), Spyro the Dragon, and Super Smash Bros. Melee (my primary motivation for getting the GameCube) with that warm, fuzzy feeling of nostalgia. My SNES and Genesis consoles and cartridges are long gone, and my Playstation and GameCube have been passed on to younger siblings (though I kept some of the games), but I will always cherish those memories.&lt;/p&gt;
+&lt;p&gt;Great franchises like Zelda, Rayman, and Sonic the Hedgehog have lived on to see new installments on the latest and greatest technology, and for that I am abundantly grateful. However, I was almost as excited to download Shining Force again from the Wii Virtual Console as I was to buy Super Smash Bros. Brawl. Those old games still hold a certain charm.
+Resources like the Wii Virtual Console and the PSN Store have not only enabled me to enjoy games from my youth again, but they have also given me the opportunity to play games that I missed out on, like Super Mario RPG and Metal Gear Solid. Even with all of the newer games on my “must-play” list, sometimes nothing hits the spot like a retro game.&lt;/p&gt;
+&lt;p&gt;I dredge up all of that (probably boring) history to make a point: good games are timeless. Like in film, our modern achievements are standing on the shoulders of the classics. I think that any gamer can understand this. What I don’t understand is why the game companies don’t really seem to value their own art form.&lt;/p&gt;
+&lt;p&gt;Ever since the XboxOne was announced, the hot topic in the gaming world has been Microsoft’s draconian DRM restrictions. Even with &lt;a href=&quot;https://news.xbox.com/en-us/2013/06/19/update/&quot;&gt;their subsequent reversal&lt;/a&gt;, the discussion rages on. But while Sony and Microsoft have both announced consoles without backward compatibility, no one is really talking about it.&lt;/p&gt;
+&lt;p&gt;One exception is &lt;a href=&quot;http://gameological.com/2013/05/for-our-consideration-backward-compatibility/&quot;&gt;this excellent article from Gameological Society&lt;/a&gt;. As I read that, it deeply resonated with me. I was truly disappointed to see it drowned out in the cacophony of “Microsoft Sux!” and “Sony Won E3” headlines.&lt;/p&gt;
+&lt;p&gt;While certainly not a poster child for modern gaming at this point, I think that Nintendo is the only one to have gotten this right. The Wii supported GameCube discs (at least originally) and the Wii U supports Wii discs. They have provided one generation of backward compatibility, with older games delivered through an online store–although the extremely limited selection in the Wii U’s Virtual Console is disheartening. I haven’t purchased a Wii U yet, but when I do I’ll still be able to play all of the Wii games that I have accumulated over the years.&lt;/p&gt;
+&lt;p&gt;Why couldn’t Sony and Microsoft have done the same? I have invested a significant amount of money in PS3 games, even in the short time that I’ve owned the console. I plan to purchase many more PS3 games as I work my way through everything I’ve missed and stellar new titles like The Last of Us. If I buy a PS4, I’ll have to keep my PS3 around to play those games.&lt;/p&gt;
+&lt;p&gt;The stock answer for this conundrum is that it isn’t possible for new hardware to support legacy games, that it would be too expensive. Basically what we’re saying is that &lt;em&gt;backward compatibility isn’t compatible with forward-thinking&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I strongly disagree with that sentiment. I also strongly agree with this one from the aforementioned Gameological Society article:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shunning support for older games isn’t just bad for players—it denigrates the entire art form.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes, I understand that to take the XboxOne and PS4 and make them able to play discs from the previous generation would be expensive and technologically challenging. That obstacle is not lost on me. But what if we were having this discussion at the beginning of the product’s development cycle and not at the end? What if the console had been engineered from the beginning to be backward-compatible?&lt;/p&gt;
+&lt;p&gt;In my opinion, the problem here is not a technological one. The problem is one of ideology and of culture. If Sony and Microsoft held backward compatibility as a core value, it would have informed their design choices with the next generation. It would have changed the way that they approached it.&lt;/p&gt;
+&lt;p&gt;Wouldn’t that have held us back? I don’t believe it would have. Creativity is by definition born within constraints. I am not knowledgeable enough about the domain of console development to speak authoritatively on the matter, but as a software developer I do know that design is always about compromise. “A thousand no’s for every yes,” like &lt;a href=&quot;https://www.apple.com/designed-by-apple/&quot;&gt;that Apple video&lt;/a&gt; says.&lt;/p&gt;
+&lt;p&gt;Backward compatibility matters. Current consoles should play at least the previous generation’s games, and games older than that should at least be made available digitally. Ideally, we shouldn’t have to buy those games again either. What if Sony or Microsoft (or Nintendo) “moved the industry forward” not by cutting off support for current and classic games, but allowed us to digitize them and play them on our next-generation consoles (a la iTunes Match, for example)? That’s a future I could get excited about.&lt;/p&gt;
+&lt;p&gt;The problem is that we are allowing good things like better hardware (or foolish things like integrating with TV service) get in the way of the most important things. I for one care about the timeless experience of a well-crafted game far more than about hardware specs. And I care about sharing those experiences with others far more than “social gaming” features.&lt;/p&gt;
+&lt;p&gt;I think we need to remind the game developers and console makers what really matters. We have been very loud about DRM–and people are still talking about it. We should be just as loud if not louder about the issue of backward compatibility. Let’s talk about the meaningful experiences we’ve had with our games. Let’s celebrate gaming as the art form that it is and not allow its history to be ignored.&lt;/p&gt;</content:encoded></item></channel></rss>

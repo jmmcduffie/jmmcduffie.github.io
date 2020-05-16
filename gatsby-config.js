@@ -36,19 +36,29 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `jmmcduffie.com`,
-        short_name: `jmmcduffie.com`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#48bb78`,
-        display: `standalone`,
-        icon: `src/images/icon.png`,
+        name: 'jmmcduffie.com',
+        short_name: 'jmmcduffie.com',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#48bb78',
+        display: 'standalone',
+        icon: 'src/images/icon.png',
       },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-feed'
+    'gatsby-plugin-feed',
+    {
+      resolve: 'gatsby-plugin-webmention',
+      options: {
+        username: 'www.jmmcduffie.com',
+        mentions: true,
+        pingbacks: false,
+        domain: 'www.jmmcduffie.com',
+        token: process.env.WEBMENTIONS_TOKEN
+      }
+    },
   ],
 }

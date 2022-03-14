@@ -20,7 +20,7 @@ While certainly not a poster child for modern gaming at this point, I think that
 
 Why couldn’t Sony and Microsoft have done the same? I have invested a significant amount of money in PS3 games, even in the short time that I’ve owned the console. I plan to purchase many more PS3 games as I work my way through everything I’ve missed and stellar new titles like The Last of Us. If I buy a PS4, I’ll have to keep my PS3 around to play those games.
 
-The stock answer for this conundrum is that it isn’t possible for new hardware to support legacy games, that it would be too expensive. Basically what we’re saying is that *backward compatibility isn’t compatible with forward-thinking*.
+The stock answer for this conundrum is that it isn’t possible for new hardware to support legacy games, that it would be too expensive. Basically what we’re saying is that _backward compatibility isn’t compatible with forward-thinking_.
 
 I strongly disagree with that sentiment. I also strongly agree with this one from the aforementioned Gameological Society article:
 

@@ -15,7 +15,7 @@ So the first step is to build a navigation menu using the built-in semantics of 
 
 `gist:9338935#markup-1.html`
 
-That implementation alone will meet the requirements of in-page navigation. Clicking one of the links using a fragment identifier will move the viewport to that section. But although technically correct, this approach leaves something to be desired. The links need an additional *behavior* added.
+That implementation alone will meet the requirements of in-page navigation. Clicking one of the links using a fragment identifier will move the viewport to that section. But although technically correct, this approach leaves something to be desired. The links need an additional _behavior_ added.
 
 Web development has come a long way since the days of inline JavaScript and CSS. My current thinking with binding JavaScript behaviors to HTML is to use data attributes to extend the semantics of the element. By adding `data-behavior="foo"` to an element, I can communicate that it has additional metadata and add a way to bind JavaScript functionality to it.
 

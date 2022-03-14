@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default ({ data }) => (
   <Layout>
@@ -13,7 +13,10 @@ export default ({ data }) => (
         <li key={node.id}>
           <span className="text-gray-600 text-sm">{node.frontmatter.date}</span>
           <h3 className="text-2xl leading-tight">
-            <Link to={node.fields.slug} className="text-blue-500 hover:underline">
+            <Link
+              to={node.fields.slug}
+              className="text-blue-500 hover:underline"
+            >
               {node.frontmatter.title}
             </Link>
           </h3>
@@ -22,7 +25,10 @@ export default ({ data }) => (
     </ol>
 
     <p>
-      subscribe <Link to="/rss.xml" className="text-blue-500 hover:underline">via RSS</Link>
+      subscribe{" "}
+      <Link to="/rss.xml" className="text-blue-500 hover:underline">
+        via RSS
+      </Link>
     </p>
   </Layout>
 )

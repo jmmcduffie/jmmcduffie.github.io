@@ -1,6 +1,5 @@
-import React from 'react'
-import { useStaticQuery, Link, graphql } from 'gatsby'
-
+import React from "react"
+import { useStaticQuery, Link, graphql } from "gatsby"
 
 export default () => {
   const data = useStaticQuery(

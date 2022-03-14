@@ -4,6 +4,7 @@ module.exports = {
     author: "Jeremy McDuffie",
     description: "The #indieweb home of Jeremy McDuffie",
     siteUrl: "https://www.jmmcduffie.com",
+    webmentionUrl: "https://webmention.io/www.jmmcduffie.com/webmention",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -56,7 +57,7 @@ module.exports = {
         username: "www.jmmcduffie.com",
         mentions: true,
         pingbacks: false,
-        domain: "www.jmmcduffie.com",
+        domain: "jmmcduffie.com",
         token: process.env.WEBMENTIONS_TOKEN,
       },
     },

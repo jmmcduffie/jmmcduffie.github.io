@@ -15,9 +15,9 @@ const SocialLink = ({ href, icon, children }) => (
 export default () => (
   <footer
     role="contentinfo"
-    className="border-t py-6 px-4 text-gray-700 h-card"
+    className="px-4 py-6 text-gray-700 border-t h-card"
   >
-    <div className="max-w-screen-lg mx-auto space-y-4 md:space-y-0 md:flex justify-between">
+    <div className="justify-between max-w-screen-lg mx-auto space-y-4 md:space-y-0 md:flex">
       <div>
         <img
           class="rounded-full u-photo"
@@ -60,7 +60,7 @@ export default () => (
 
       <p>
         <small className="block text-sm">
-          Copyright &copy; 2013–{new Date().getFullYear()}{" "}
+          Copyright &copy; 2007–{new Date().getFullYear()}{" "}
           <span class="p-name">Jeremy McDuffie</span>.
         </small>
         <small className="block text-sm">All rights reserved.</small>
